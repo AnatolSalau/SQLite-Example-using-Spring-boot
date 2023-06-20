@@ -15,7 +15,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @RestController
 @RequestMapping(value = "/")
 public class CubesController {
-	
+
 	@Autowired
 	private CubesService cubesService;
 	
