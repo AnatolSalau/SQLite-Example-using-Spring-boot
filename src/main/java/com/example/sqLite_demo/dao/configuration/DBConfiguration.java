@@ -16,5 +16,4 @@ public class DBConfiguration {
         dataSourceBuilder.url("jdbc:sqlite:main.sqlite");
         return dataSourceBuilder.build();
     }
-
 }

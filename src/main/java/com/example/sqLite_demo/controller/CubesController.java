@@ -24,6 +24,4 @@ public class CubesController {
 		List<Cubes> cubes= cubesService.findAllCubes();
 		return new ObjectMapper().writeValueAsString(cubes);
 	}
-	
-
 }
